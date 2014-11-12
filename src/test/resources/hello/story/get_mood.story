@@ -6,7 +6,7 @@ So that I can get an insurance quote
 
 Scenario: Quote when entering correct values
 Given any user
-When colour is retrieved
+When a <colour> is retrieved
 Then the mood should be <mood>
 
 Examples:
