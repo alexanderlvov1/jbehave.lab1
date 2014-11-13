@@ -1,10 +1,9 @@
-Story: Get Quote
+Story: Guess mood
 
 As a user
-I want to enter personalnumber or organizational number, a start date and a registrationnumber
-So that I can get an insurance quote
+I want to what a persons mood is knowing the colour he/she likes most
 
-Scenario: Quote when entering correct values
+Scenario: Guess the mood by the colour
 Given any user
 When a <colour> is retrieved
 Then the mood should be <mood>
