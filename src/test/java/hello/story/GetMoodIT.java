@@ -8,7 +8,6 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.web.client.RestTemplate;
-import se.lf.service.common.test.story.camel.JsonClientWOAuthentication;
 import se.lf.service.common.test.story.json.JSONUtil;
 import se.lf.service.common.test.story.junit.Story;
 
@@ -16,7 +15,6 @@ import static org.junit.Assert.assertTrue;
 
 public class GetMoodIT extends Story {
     private JSONUtil jsonUtil = new JSONUtil();
-    private JsonClientWOAuthentication jsonClient;
     private String response;
     private boolean hasRun = false;
     private RestTemplate restTemplate = new RestTemplate();
